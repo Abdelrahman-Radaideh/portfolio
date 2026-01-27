@@ -1,153 +1,68 @@
 {
     "user": {
-        "id": 100,
+        "id": 1,
         "name": "Abdelrahman Radaideh",
-        "job_title": "Data Science & AI Developer",
-        "email": "Abdelrahmanradaideh.dev@gmail.com",
-        "hero_description": "Architecting intelligent systems and predictive models with a focus on Deep Learning and Full-Stack AI integration.",
-        "about_description": "I’m an AI Developer and Data Scientist passionate about bridging the gap between complex algorithms and real-world applications. I specialize in building end-to-end intelligent systems using Python, TensorFlow, and PyTorch, while maintaining a strong foundation in Full Stack development with React and Node.js. My approach combines rigorous data analysis with modern software engineering practices to deliver high-performance, data-driven solutions. I graduated with a Bachelor’s degree in Software Engineering from Jordan University of Science and Technology, providing me with the technical depth to build reliable, scalable AI architectures.",
-        "capabilities_description": "I specialize in transforming raw data into actionable intelligence through hands-on development of neural networks, computer vision systems, and automated pipelines. My core strengths lie at the intersection of Machine Learning and robust Software Engineering.\n\nI am constantly exploring the latest breakthroughs in LLMs and generative AI to keep my technical edge sharp and ready for the next big challenge.",
-        "about_title": "I am a Data Science & AI Developer based in Jordan. I build functional end-to-end intelligent applications that meet high standards of performance and predictive accuracy.",
-        "linkedin_url": "https://www.linkedin.com/in/Abdelrahman-radaideh/",
-        "github_url": "https://github.com/AbdelrahmanAR49",
-        "resume_url": "https://drive.google.com/file/d/1kEZAfDHeaQqiS14Jo32vID2WCpJnkZ9u/view",
-        "picture_url": "https://res.cloudinary.com/dxa0aylow/image/upload/v1769416147/qentbmtdh7xeslqkcs3a.png",
+        "job_title": "Data Scientist & Machine Learning Developer",
+        "email": "abdelrahmanradaideh.dev@gmail.com",
+        "hero_description": "Building smart solutions with machine learning, data analysis, and modern AI tools.",
+        "about_description": "I am a Data Science and Artificial Intelligence graduate with a strong academic foundation and practical experience in machine learning and data analysis. I enjoy working with data to uncover insights, build predictive models, and develop intelligent solutions. My experience includes image classification using neural networks, data visualization with Power BI, and working with modern tools such as Python, SQL, and GitHub. I am continuously improving my skills and seeking opportunities to apply data-driven approaches to real-world problems.",
+        "capabilities_description": "I specialize in developing data-driven solutions through hands-on projects. My strengths include machine learning, data analysis, and writing clean, maintainable code. I continuously expand my skills and stay current with modern AI tools and technologies.",
+        "about_title": "I am a Data Science and AI graduate in Jordan with a strong foundation in machine learning and data-driven solutions. I am continuously improving my skills through hands-on projects and professional training, aiming to build a career defined by quality, growth, and impact.",
+        "linkedin_url": "https://www.linkedin.com/in/abdelrahman-radaideh/",
+        "github_url": "https://github.com/Abdelrahman-Radaideh",
+        "resume_url": "https://docs.google.com/document/d/1pbJLEIxAI-_u9pRANjD4cdb4iNNsZeuJ/edit?usp=sharing&ouid=108307676175975711476&rtpof=true&sd=true",
+        "picture_url": "https://res.cloudinary.com/dtmd7pfup/image/upload/v1769510594/lfcigplloekai1vdybwn.png",
         "portfolio_name": "main",
         "is_active": false
     },
     "skills": {
         "main": [
             {
-                "id": 92,
-                "user_id": 100,
-                "name": "React",
-                "type": "primary",
-                "users": {
-                    "is_active": true
-                }
-            },
-            {
-                "id": 93,
-                "user_id": 100,
-                "name": "Node.js",
-                "type": "primary",
-                "users": {
-                    "is_active": true
-                }
-            },
-            {
-                "id": 94,
-                "user_id": 100,
-                "name": "PostgreSQL",
-                "type": "primary",
-                "users": {
-                    "is_active": true
-                }
-            },
-            {
-                "id": 95,
-                "user_id": 100,
-                "name": "HTML",
-                "type": "primary",
-                "users": {
-                    "is_active": true
-                }
-            },
-            {
-                "id": 96,
-                "user_id": 100,
-                "name": "CSS3",
-                "type": "primary",
-                "users": {
-                    "is_active": true
-                }
-            },
-            {
-                "id": 97,
-                "user_id": 100,
-                "name": "Tailwind CSS",
-                "type": "primary",
-                "users": {
-                    "is_active": true
-                }
-            },
-            {
-                "id": 98,
-                "user_id": 100,
-                "name": "JavaScript",
-                "type": "primary",
-                "users": {
-                    "is_active": true
-                }
-            },
-            {
-                "id": 99,
-                "user_id": 100,
-                "name": "TypeScript",
-                "type": "primary",
-                "users": {
-                    "is_active": true
-                }
-            },
-            {
-                "id": 107,
-                "user_id": 100,
+                "id": 1,
+                "user_id": 1,
                 "name": "Python",
                 "type": "primary",
+                "icon": null,
                 "users": {
                     "is_active": true
                 }
             },
             {
-                "id": 108,
-                "user_id": 100,
-                "name": "TensorFlow",
-                "type": "primary",
-                "users": {
-                    "is_active": true
-                }
-            },
-            {
-                "id": 109,
-                "user_id": 100,
-                "name": "PyTorch",
-                "type": "primary",
-                "users": {
-                    "is_active": true
-                }
-            },
-            {
-                "id": 110,
-                "user_id": 100,
+                "id": 2,
+                "user_id": 1,
                 "name": "Pandas",
                 "type": "primary",
+                "icon": null,
                 "users": {
                     "is_active": true
                 }
             },
             {
-                "id": 111,
-                "user_id": 100,
+                "id": 3,
+                "user_id": 1,
+                "name": "NumPy",
+                "type": "primary",
+                "icon": null,
+                "users": {
+                    "is_active": true
+                }
+            },
+            {
+                "id": 4,
+                "user_id": 1,
+                "name": "Scikit-learn",
+                "type": "primary",
+                "icon": null,
+                "users": {
+                    "is_active": true
+                }
+            },
+            {
+                "id": 15,
+                "user_id": 1,
                 "name": "Matplotlib",
                 "type": "primary",
-                "users": {
-                    "is_active": true
-                }
-            },
-            {
-                "id": 112,
-                "user_id": 100,
-                "name": "Seaborn",
-                "type": "primary",
-                "users": {
-                    "is_active": true
-                }
-            },
-            {
-                "id": 113,
-                "user_id": 100,
-                "name": "Streamlit",
-                "type": "primary",
+                "icon": null,
                 "users": {
                     "is_active": true
                 }
@@ -155,46 +70,101 @@
         ],
         "secondary": [
             {
-                "id": 100,
-                "user_id": 100,
-                "name": "Git",
+                "id": 5,
+                "user_id": 1,
+                "name": "SQL",
                 "type": "secondary",
+                "icon": null,
                 "users": {
                     "is_active": true
                 }
             },
             {
-                "id": 101,
-                "user_id": 100,
-                "name": "GitHub",
+                "id": 6,
+                "user_id": 1,
+                "name": "SQLite",
                 "type": "secondary",
+                "icon": null,
                 "users": {
                     "is_active": true
                 }
             },
             {
-                "id": 102,
-                "user_id": 100,
-                "name": "Cypress",
+                "id": 7,
+                "user_id": 1,
+                "name": "MongoDB",
                 "type": "secondary",
+                "icon": null,
                 "users": {
                     "is_active": true
                 }
             },
             {
-                "id": 103,
-                "user_id": 100,
-                "name": "Postman",
+                "id": 8,
+                "user_id": 1,
+                "name": "Power BI",
                 "type": "secondary",
+                "icon": null,
                 "users": {
                     "is_active": true
                 }
             },
             {
-                "id": 104,
-                "user_id": 100,
-                "name": "Figma",
+                "id": 9,
+                "user_id": 1,
+                "name": "HTML5",
                 "type": "secondary",
+                "icon": null,
+                "users": {
+                    "is_active": true
+                }
+            },
+            {
+                "id": 10,
+                "user_id": 1,
+                "name": "CSS3",
+                "type": "secondary",
+                "icon": null,
+                "users": {
+                    "is_active": true
+                }
+            },
+            {
+                "id": 11,
+                "user_id": 1,
+                "name": "PyTorch",
+                "type": "secondary",
+                "icon": null,
+                "users": {
+                    "is_active": true
+                }
+            },
+            {
+                "id": 12,
+                "user_id": 1,
+                "name": "TensorFlow",
+                "type": "secondary",
+                "icon": null,
+                "users": {
+                    "is_active": true
+                }
+            },
+            {
+                "id": 14,
+                "user_id": 1,
+                "name": "Streamlit",
+                "type": "secondary",
+                "icon": null,
+                "users": {
+                    "is_active": true
+                }
+            },
+            {
+                "id": 17,
+                "user_id": 1,
+                "name": "Seaborn",
+                "type": "secondary",
+                "icon": null,
                 "users": {
                     "is_active": true
                 }
@@ -203,148 +173,94 @@
     },
     "projects": [
         {
-            "id": 143,
-            "user_id": 100,
-            "title": "Smart Agri-Bridge",
-            "client": "University project",
-            "role": "AI Solutions Developer",
-            "year": 2025,
-            "status": "completed",
-            "sort_order": 1,
-            "description": "An intelligent agricultural platform that leverages predictive analytics to optimize land rental for farmers. It features a recommendation engine for land suitability and a real-time communication layer, built on a robust React and PostgreSQL architecture.",
-            "github_url": "https://github.com/AbdelrahmanAR49/Green-Bridge.git",
-            "technologies": "Python, React, Node.js, PostgreSQL",
-            "images": [
-                "https://res.cloudinary.com/dxa0aylow/image/upload/v1752396452/GB1_qyjrth.jpg",
-                "https://res.cloudinary.com/dxa0aylow/image/upload/v1752396452/GB3_iz92qp.jpg",
-                "https://res.cloudinary.com/dxa0aylow/image/upload/v1752396453/GB2_mpar4z.jpg",
-                "https://res.cloudinary.com/dxa0aylow/image/upload/v1752396453/GB4_mkdvyh.jpg"
-            ],
-            "users": {
-                "is_active": true
-            }
-        },
-        {
-            "id": 144,
-            "user_id": 100,
-            "title": "AI-Driven Mobile Test Automation",
-            "client": "ARD Group (Arabia Weather)",
-            "role": "Lead Automation Engineer",
-            "year": 2025,
-            "status": "In Progress",
-            "sort_order": 2,
-            "description": "Developed a next-generation automation framework using Appium, integrating computer vision for elements detection. Focused on automating complex UX flows including multi-factor authentication and dynamic content validation.",
-            "github_url": "https://github.com/AbdelrahmanAR49/Appium-ard.git",
-            "technologies": "Appium, Node.js, Computer Vision",
-            "images": [
-                "https://res.cloudinary.com/dxa0aylow/image/upload/v1765289089/appium1_knr7if.jpg",
-                "https://res.cloudinary.com/dxa0aylow/image/upload/v1765289089/appium2_bzflu5.jpg",
-                "https://res.cloudinary.com/dxa0aylow/image/upload/v1765289092/appium3_gapbhk.jpg"
-            ],
-            "users": {
-                "is_active": true
-            }
-        },
-        {
-            "id": 146,
-            "user_id": 100,
-            "title": "AI Racing Agents",
-            "client": "University project",
-            "role": "Game AI Developer",
-            "year": 2023,
-            "status": "completed",
-            "sort_order": 5,
-            "description": "A 2D racing simulation featuring intelligent NPC agents driven by heuristic-based decision trees. Developed in C#, this project explores pathfinding algorithms and dynamic difficulty adjustment in a competitive environment.",
-            "github_url": "https://github.com/AbdelrahmanAR49/car-game.git",
-            "technologies": "C#, AI Agents, WinForms",
-            "images": [
-                "https://res.cloudinary.com/dxa0aylow/image/upload/v1752398007/car3_r4erps.jpg",
-                "https://res.cloudinary.com/dxa0aylow/image/upload/v1752398007/car4_j0x8rm.jpg",
-                "https://res.cloudinary.com/dxa0aylow/image/upload/v1752398007/car2_ic9kxb.jpg",
-                "https://res.cloudinary.com/dxa0aylow/image/upload/v1752398007/car1_pmvker.jpg"
-            ],
-            "users": {
-                "is_active": true
-            }
-        },
-        {
-            "id": 147,
-            "user_id": 100,
-            "title": "Predictive Library System",
-            "client": "University project",
-            "role": "Full-Stack AI Developer",
+            "id": 4,
+            "user_id": 1,
+            "title": "Freshness Fruit",
+            "client": "University",
+            "role": "Data Scientist & Machine Learning Developer",
             "year": 2024,
-            "status": "suspended",
-            "sort_order": 4,
-            "description": "A management system that utilizes user borrowing history to provide read recommendations. Built with JSP and Oracle, it incorporates statistical analysis techniques to predict demand for specific book categories.",
-            "github_url": "https://github.com/AbdelrahmanAR49/library-system.git",
-            "technologies": "JSP, Java, statistical Analysis, Oracle",
+            "status": "completed",
+            "sort_order": 2,
+            "description": "This project implements a Deep Learning model to classify fruits into two categories: Fresh and Rotten. It supports classification for Apples, Bananas, and Oranges across 6 distinct classes.",
+            "github_url": "https://github.com/Abdelrahman-Radaideh/freshness_fruit",
+            "technologies": [
+                "tensorflow numpy pandas matplotlib opencv-python scikit-learn kagglehub"
+            ],
             "images": [
-                "https://res.cloudinary.com/dxa0aylow/image/upload/v1753178825/lib_1_cpsgsi.jpg",
-                "https://res.cloudinary.com/dxa0aylow/image/upload/v1753178833/lib_2_x2c2zf.jpg",
-                "https://res.cloudinary.com/dxa0aylow/image/upload/v1753178825/lib_3_bcfcq7.jpg"
+                "https://res.cloudinary.com/dtmd7pfup/image/upload/v1769456908/ptd7wbqb3kifjmep4iyh.jpg",
+                "https://res.cloudinary.com/dtmd7pfup/image/upload/v1769456986/xieahaxb0oy0ccpvujqx.jpg",
+                "https://res.cloudinary.com/dtmd7pfup/image/upload/v1769456986/kopt0kdhzp93anm6ozr4.jpg"
             ],
             "users": {
                 "is_active": true
             }
         },
         {
-            "id": 145,
-            "user_id": 100,
-            "title": "AI-Portfolio Engine",
-            "client": "Personal project",
-            "role": "Lead Architect",
+            "id": 3,
+            "user_id": 1,
+            "title": "simple-chatbot  ",
+            "client": "Personal",
+            "role": "AI Developer",
             "year": 2025,
             "status": "completed",
             "sort_order": 3,
-            "description": "A dynamic portfolio orchestration system designed for technical showcasing. Features high-performance data portability, secure admin thresholds, and a technical UI optimized for presenting AI/Data Science projects through automated visualizations.",
-            "github_url": "https://github.com/AbdelrahmanAR49/portfolio.git",
-            "technologies": "React-TS, Tailwind CSS, Node.js, Supabase",
+            "description": "A modern, responsive, and intelligent pizza ordering chatbot. This project combines a Flask backend with a TensorFlow-powered NLP model and a sleek, user-friendly frontend to provide a seamless ordering experience.\n\n",
+            "github_url": "https://github.com/Abdelrahman-Radaideh/simple-chatbot",
+            "technologies": [
+                "numpy tensorflow json nltk html css node.js flask"
+            ],
             "images": [
-                "https://res.cloudinary.com/dxa0aylow/image/upload/v1765302842/p2_etwj2t.jpg",
-                "https://res.cloudinary.com/dxa0aylow/image/upload/v1765302842/p1_fngjm1.jpg",
-                "https://res.cloudinary.com/dxa0aylow/image/upload/v1769258121/yxfgxsxalpabshaagorb.jpg",
-                "https://res.cloudinary.com/dxa0aylow/image/upload/v1769258121/hfnsxzfl2aauq6nnd6tl.jpg",
-                "https://res.cloudinary.com/dxa0aylow/image/upload/v1769258121/qhrlrmkfjxkmtmh2atgi.jpg"
+                "https://res.cloudinary.com/dtmd7pfup/image/upload/v1769456477/tpunlfrwg4epht9acweh.jpg",
+                "https://res.cloudinary.com/dtmd7pfup/image/upload/v1769456477/ulik45i7bxfgb9yg5gbs.jpg"
+            ],
+            "users": {
+                "is_active": true
+            }
+        },
+        {
+            "id": 2,
+            "user_id": 1,
+            "title": "the best way to study",
+            "client": "University",
+            "role": "Data Scientist & Machine Learning Developer",
+            "year": 2024,
+            "status": "completed",
+            "sort_order": 1,
+            "description": "An AI-powered web application built with Streamlit and machine learning.\nIt analyzes student learning habits and academic performance.\nThe system recommends the most effective personalized study methods.",
+            "github_url": "https://github.com/Abdelrahman-Radaideh/The-best-way-to-study",
+            "technologies": [
+                "numpy pandas matplotlib scikit-learn joblib streamlit"
+            ],
+            "images": [
+                "https://res.cloudinary.com/dtmd7pfup/image/upload/v1769455542/awsegmx48uz5hi98mf4f.jpg",
+                "https://res.cloudinary.com/dtmd7pfup/image/upload/v1769457039/zuhczn6ndyz0e2uprgd2.jpg"
+            ],
+            "users": {
+                "is_active": true
+            }
+        },
+        {
+            "id": 5,
+            "user_id": 1,
+            "title": "Multiscreen detection",
+            "client": "Personal",
+            "role": "AI developer",
+            "year": 2025,
+            "status": "in progress",
+            "sort_order": 4,
+            "description": "is a sophisticated real-time vision pipeline that identifies and verifies digital screens (laptops, monitors, smartphones) from a live camera feed. \n",
+            "github_url": "https://github.com/Abdelrahman-Radaideh/Multiscreen-detection",
+            "technologies": [
+                "torch yolo transformers opencv-python pillow numpy"
+            ],
+            "images": [
+                "https://res.cloudinary.com/dtmd7pfup/image/upload/v1769496534/gcz0jngrhvut3rvstbdj.jpg",
+                "https://res.cloudinary.com/dtmd7pfup/image/upload/v1769496533/etzfvla5khsgjhf7j2r8.jpg"
             ],
             "users": {
                 "is_active": true
             }
         }
     ],
-    "experiences": [
-        {
-            "id": 56,
-            "user_id": 100,
-            "role": "Internship in Quality Assurance",
-            "period": "Sep 2025 - present",
-            "description": "Ard Group (ArabiaWeather) is a leading weather technology company in the Middle East, known for its ArabiaWeather app that delivers hyper-localized forecasts and real-time alerts. My role was to test the app’s functionality, usability, and performance to ensure a smooth user experience and accurate delivery of weather data. I also built and worked on Appium automations.",
-            "company": "ARD(Arabia weather)",
-            "users": {
-                "is_active": true
-            }
-        },
-        {
-            "id": 57,
-            "user_id": 100,
-            "role": "Internship in Quality Assurance and Business Analysis",
-            "period": "Jun 2025 - Sep 2025",
-            "description": "Gained experience in business requirements and quality assurance by working on real-world problems. RealSoft is a leading company in Jordan that develops government applications, which gave me valuable insight into how large companies operate and maintain high-quality software standards",
-            "company": "Real Soft Advanced applications",
-            "users": {
-                "is_active": true
-            }
-        },
-        {
-            "id": 58,
-            "user_id": 100,
-            "role": "student",
-            "period": "sep 2021 - sep 2025",
-            "description": "As a recent computer science graduate, I gained hands-on experience through university and personal projects. Throughout my academic journey, we followed the complete software development life cycle from gathering requirements and planning, to development, testing, and deployment. These projects helped me apply real-world development practices in collaborative and individual settings.",
-            "company": "Jordan University of sinace and technology",
-            "users": {
-                "is_active": true
-            }
-        }
-    ]
+    "experiences": []
 }
