@@ -118,7 +118,7 @@ The Admin Dashboard is hidden by default. To access it:
 
 1.  Scroll down to the **Contact** section (Footer).
 2.  In the "Message" field, type the secret access code:
-    > **zaidopendash**
+    > **Abdelrahmanopendash**
 3.  A secure modal will appear. It will automatically send a secondary security code to your email.
 4.  Enter the code you received in your email to authenticate and enter the dashboard.
 
@@ -146,9 +146,9 @@ portfolio/
 
 ## 👨‍💻 Author
 
-**Zaid Radaideh**
+**Abdelrahman Radaideh**
 
-- LinkedIn: [linkedin.com/in/zaid-radaideh](https://linkedin.com/in/zaid-radaideh)
+- LinkedIn: [linkedin.com/in/Abdelrahman-radaideh](https://linkedin.com/in/Abdelrahman-radaideh)
 
 ## 🤝 Contributing
 
@@ -163,6 +163,6 @@ Contributions are welcome! Please fork the repository and open a pull request.
 ## 📞 Contact
 
 For questions or collaboration opportunities, feel free to reach out:
-- Email: zaidradaideh.dev@gmail.com
+- Email: Abdelrahmanradaideh.dev@gmail.com
 
 ⭐ If you found this project helpful, please give it a star!

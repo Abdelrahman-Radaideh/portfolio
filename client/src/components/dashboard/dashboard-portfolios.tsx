@@ -304,7 +304,7 @@ export const PortfolioManager = () => {
                         onChange={(val: string) => setFormData({ ...formData, name: val })}
                         required
                         minLength={2}
-                        placeholder="e.g. Zaid Radaideh"
+                        placeholder="e.g. Abdelrahman Radaideh"
                     />
                     <InputGroup
                         label="Job Title"

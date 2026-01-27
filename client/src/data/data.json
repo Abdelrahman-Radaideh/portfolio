@@ -1,15 +1,15 @@
 {
     "user": {
         "id": 100,
-        "name": "Zaid Radaideh",
-        "job_title": "Software Engineer",
-        "email": "zaidradaideh.dev@gmail.com",
-        "hero_description": "focused on creating reliable web applications and ensuring software quality.",
-        "about_description": "I’m a Jordanian web developer passionate about building functional and user-friendly web applications. I specialize in Full Stack Development and Quality Assurance using modern technologies like React, Node.js, PostgreSQL, and Tailwind CSS. With a strong foundation in both front-end and back-end development, I strive to write clean, maintainable code and ensure software reliability through testing. I hold a Bachelor’s degree in Software Engineering from Jordan University of Science and Technology , where I developed my technical skills and deepened my passion for full-stack development",
-        "capabilities_description": "I specialize in building real-world applications through hands-on, practical projects. My core strengths lie in full-stack development and quality assurance, with a focus on writing clean and maintainable code.\n\nI am always eager to expand my skill set and stay current with modern technologies. So far, I’ve gained solid experience with tools and frameworks.",
-        "about_title": "I am a software engineer in Jordan. With a foundation in engineering and a passion for technology, I build functional end-to-end web applications and ensure they meet high quality standards.",
-        "linkedin_url": "https://www.linkedin.com/in/zaid-radaideh/",
-        "github_url": "https://github.com/ZaidAR49",
+        "name": "Abdelrahman Radaideh",
+        "job_title": "Data Science & AI Developer",
+        "email": "Abdelrahmanradaideh.dev@gmail.com",
+        "hero_description": "Architecting intelligent systems and predictive models with a focus on Deep Learning and Full-Stack AI integration.",
+        "about_description": "I’m an AI Developer and Data Scientist passionate about bridging the gap between complex algorithms and real-world applications. I specialize in building end-to-end intelligent systems using Python, TensorFlow, and PyTorch, while maintaining a strong foundation in Full Stack development with React and Node.js. My approach combines rigorous data analysis with modern software engineering practices to deliver high-performance, data-driven solutions. I graduated with a Bachelor’s degree in Software Engineering from Jordan University of Science and Technology, providing me with the technical depth to build reliable, scalable AI architectures.",
+        "capabilities_description": "I specialize in transforming raw data into actionable intelligence through hands-on development of neural networks, computer vision systems, and automated pipelines. My core strengths lie at the intersection of Machine Learning and robust Software Engineering.\n\nI am constantly exploring the latest breakthroughs in LLMs and generative AI to keep my technical edge sharp and ready for the next big challenge.",
+        "about_title": "I am a Data Science & AI Developer based in Jordan. I build functional end-to-end intelligent applications that meet high standards of performance and predictive accuracy.",
+        "linkedin_url": "https://www.linkedin.com/in/Abdelrahman-radaideh/",
+        "github_url": "https://github.com/AbdelrahmanAR49",
         "resume_url": "https://drive.google.com/file/d/1kEZAfDHeaQqiS14Jo32vID2WCpJnkZ9u/view",
         "picture_url": "https://res.cloudinary.com/dxa0aylow/image/upload/v1769416147/qentbmtdh7xeslqkcs3a.png",
         "portfolio_name": "main",
@@ -90,9 +90,63 @@
                 }
             },
             {
-                "id": 106,
+                "id": 107,
                 "user_id": 100,
-                "name": "Appium",
+                "name": "Python",
+                "type": "primary",
+                "users": {
+                    "is_active": true
+                }
+            },
+            {
+                "id": 108,
+                "user_id": 100,
+                "name": "TensorFlow",
+                "type": "primary",
+                "users": {
+                    "is_active": true
+                }
+            },
+            {
+                "id": 109,
+                "user_id": 100,
+                "name": "PyTorch",
+                "type": "primary",
+                "users": {
+                    "is_active": true
+                }
+            },
+            {
+                "id": 110,
+                "user_id": 100,
+                "name": "Pandas",
+                "type": "primary",
+                "users": {
+                    "is_active": true
+                }
+            },
+            {
+                "id": 111,
+                "user_id": 100,
+                "name": "Matplotlib",
+                "type": "primary",
+                "users": {
+                    "is_active": true
+                }
+            },
+            {
+                "id": 112,
+                "user_id": 100,
+                "name": "Seaborn",
+                "type": "primary",
+                "users": {
+                    "is_active": true
+                }
+            },
+            {
+                "id": 113,
+                "user_id": 100,
+                "name": "Streamlit",
                 "type": "primary",
                 "users": {
                     "is_active": true
@@ -151,15 +205,15 @@
         {
             "id": 143,
             "user_id": 100,
-            "title": "Green Bridge",
+            "title": "Smart Agri-Bridge",
             "client": "University project",
-            "role": "full-stack developer",
+            "role": "AI Solutions Developer",
             "year": 2025,
             "status": "completed",
             "sort_order": 1,
-            "description": "Green Bridge is a web platform connecting agricultural landowners with farmers by enabling direct land rental. It features user authentication, real-time chat, and the ability to post and manage land offers. Farmers can search, filter, and book available lands while landowners track listings and communicate instantly.",
-            "github_url": "https://github.com/ZaidAR49/Green-Bridge.git",
-            "technologies": "React, Node.js, PostgreSQL",
+            "description": "An intelligent agricultural platform that leverages predictive analytics to optimize land rental for farmers. It features a recommendation engine for land suitability and a real-time communication layer, built on a robust React and PostgreSQL architecture.",
+            "github_url": "https://github.com/AbdelrahmanAR49/Green-Bridge.git",
+            "technologies": "Python, React, Node.js, PostgreSQL",
             "images": [
                 "https://res.cloudinary.com/dxa0aylow/image/upload/v1752396452/GB1_qyjrth.jpg",
                 "https://res.cloudinary.com/dxa0aylow/image/upload/v1752396452/GB3_iz92qp.jpg",
@@ -173,15 +227,15 @@
         {
             "id": 144,
             "user_id": 100,
-            "title": "Automated Mobile Testing for Android Using Appium",
-            "client": "ard group(arabia weather)",
-            "role": "Test Automation Engineer",
+            "title": "AI-Driven Mobile Test Automation",
+            "client": "ARD Group (Arabia Weather)",
+            "role": "Lead Automation Engineer",
             "year": 2025,
             "status": "In Progress",
             "sort_order": 2,
-            "description": "This project involved creating an automation framework for a mobile app using Appium. The focus was on automating sign-up and login flows, including email verification via OTP. The project aimed to make mobile testing more efficient and repeatable.",
-            "github_url": "https://github.com/ZaidAR49/Appium-ard.git",
-            "technologies": "Appium, Node.js, IMAP",
+            "description": "Developed a next-generation automation framework using Appium, integrating computer vision for elements detection. Focused on automating complex UX flows including multi-factor authentication and dynamic content validation.",
+            "github_url": "https://github.com/AbdelrahmanAR49/Appium-ard.git",
+            "technologies": "Appium, Node.js, Computer Vision",
             "images": [
                 "https://res.cloudinary.com/dxa0aylow/image/upload/v1765289089/appium1_knr7if.jpg",
                 "https://res.cloudinary.com/dxa0aylow/image/upload/v1765289089/appium2_bzflu5.jpg",
@@ -194,15 +248,15 @@
         {
             "id": 146,
             "user_id": 100,
-            "title": "2D Racing Game",
+            "title": "AI Racing Agents",
             "client": "University project",
-            "role": "full-stack developer",
+            "role": "Game AI Developer",
             "year": 2023,
             "status": "completed",
             "sort_order": 5,
-            "description": "Developed a simple 2D racing game featuring 3 levels and 3 different maps. Includes both single-player and two-player modes. Focused on game logic, UI design, and player controls using Windows Forms in C#.",
-            "github_url": "https://github.com/ZaidAR49/car-game.git",
-            "technologies": "C#, Microsoft Windows Forms",
+            "description": "A 2D racing simulation featuring intelligent NPC agents driven by heuristic-based decision trees. Developed in C#, this project explores pathfinding algorithms and dynamic difficulty adjustment in a competitive environment.",
+            "github_url": "https://github.com/AbdelrahmanAR49/car-game.git",
+            "technologies": "C#, AI Agents, WinForms",
             "images": [
                 "https://res.cloudinary.com/dxa0aylow/image/upload/v1752398007/car3_r4erps.jpg",
                 "https://res.cloudinary.com/dxa0aylow/image/upload/v1752398007/car4_j0x8rm.jpg",
@@ -216,15 +270,15 @@
         {
             "id": 147,
             "user_id": 100,
-            "title": "Library Management System",
+            "title": "Predictive Library System",
             "client": "University project",
-            "role": "full-stack developer",
+            "role": "Full-Stack AI Developer",
             "year": 2024,
             "status": "suspended",
             "sort_order": 4,
-            "description": "Developed a web-based library management system using JSP and Java Servlets. Followed the MVC architecture to separate concerns and improve maintainability. Implemented features such as user login, book search, borrowing/returning books, and admin management functionalities.",
-            "github_url": "https://github.com/ZaidAR49/library-system.git",
-            "technologies": "JSP, Java servlet, Oracle",
+            "description": "A management system that utilizes user borrowing history to provide read recommendations. Built with JSP and Oracle, it incorporates statistical analysis techniques to predict demand for specific book categories.",
+            "github_url": "https://github.com/AbdelrahmanAR49/library-system.git",
+            "technologies": "JSP, Java, statistical Analysis, Oracle",
             "images": [
                 "https://res.cloudinary.com/dxa0aylow/image/upload/v1753178825/lib_1_cpsgsi.jpg",
                 "https://res.cloudinary.com/dxa0aylow/image/upload/v1753178833/lib_2_x2c2zf.jpg",
@@ -237,15 +291,15 @@
         {
             "id": 145,
             "user_id": 100,
-            "title": "Portfolio Website",
+            "title": "AI-Portfolio Engine",
             "client": "Personal project",
-            "role": "full-stack developer",
+            "role": "Lead Architect",
             "year": 2025,
             "status": "completed",
             "sort_order": 3,
-            "description": "Built with React and Tailwind, this secure MVC application utilizes Node.js API methods to manage data across Supabase and Cloudinary. Beyond its unique Multi-Portfolio system for switching profiles, it features high-performance data portability via JSON import/export and a stealth admin dashboard protected by a secure access code",
-            "github_url": "https://github.com/ZaidAR49/portfolio.git",
-            "technologies": "React-TS, Tailwind CSS, Node.js",
+            "description": "A dynamic portfolio orchestration system designed for technical showcasing. Features high-performance data portability, secure admin thresholds, and a technical UI optimized for presenting AI/Data Science projects through automated visualizations.",
+            "github_url": "https://github.com/AbdelrahmanAR49/portfolio.git",
+            "technologies": "React-TS, Tailwind CSS, Node.js, Supabase",
             "images": [
                 "https://res.cloudinary.com/dxa0aylow/image/upload/v1765302842/p2_etwj2t.jpg",
                 "https://res.cloudinary.com/dxa0aylow/image/upload/v1765302842/p1_fngjm1.jpg",

@@ -18,21 +18,22 @@
 
 /* Dark Mode */
 .dark {
-  @apply bg-slate-900 text-slate-100;
+  @apply bg-[#030712] text-slate-100;
   
-  --bg-primary: #0f172a;
-  --bg-secondary: #1e293b;
+  --bg-primary: #030712;
+  --bg-secondary: #111827;
   --text-primary: #f1f5f9;
   --text-secondary: #94a3b8;
-  --accent: #38bdf8;
-  --accent-hover: #0ea5e9;
+  --accent: #8b5cf6;
+  --accent-hover: #7c3aed;
+  --secondary: #22d3ee;
 
   p {
     @apply text-slate-400 text-base sm:text-lg leading-relaxed;
   }
 
   .glass-panel {
-    @apply bg-slate-900/70 backdrop-blur-md border border-slate-700/50 shadow-xl;
+    @apply bg-slate-900/40 backdrop-blur-xl border border-white/10 shadow-2xl;
   }
 }
 
@@ -41,18 +42,19 @@
   @apply bg-slate-50 text-slate-900;
   
   --bg-primary: #f8fafc;
-  --bg-secondary: #b6bbc1;
+  --bg-secondary: #f1f5f9;
   --text-primary: #0f172a;
   --text-secondary: #64748b;
-  --accent: #0ea5e9;
-  --accent-hover: #0284c7;
+  --accent: #8b5cf6;
+  --accent-hover: #7c3aed;
+  --secondary: #06b6d4;
 
   p {
     @apply text-slate-600 text-base sm:text-lg leading-relaxed;
   }
 
   .glass-panel {
-    @apply bg-white/70 backdrop-blur-md border border-slate-200/50 shadow-xl;
+    @apply bg-white/70 backdrop-blur-xl border border-slate-200/50 shadow-xl;
   }
 }
 
@@ -66,27 +68,40 @@ html.light body {
 }
 
 html.dark {
-  background-color: #0f172a;
+  background-color: #030712;
 }
 
 html.dark body {
-  background-color: #0f172a;
+  background-color: #030712;
+}
+
+.tech-grid {
+  background-size: 50px 50px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+}
+
+.light .tech-grid {
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
 }
 
 @layer components {
   .btn-primary {
-    @apply px-6 py-3 rounded-full font-semibold text-white bg-[var(--accent)] 
-    hover:bg-[var(--accent-hover)] transition-all duration-300 
-    shadow-lg hover:shadow-[0_0_15px_var(--accent)] hover:-translate-y-1 active:scale-95;
+    @apply px-6 py-3 rounded-full font-semibold text-white bg-gradient-to-r from-[var(--accent)] to-[var(--secondary)]
+    hover:opacity-90 transition-all duration-300 
+    shadow-lg hover:shadow-[0_0_20px_rgba(139,92,246,0.3)] hover:-translate-y-1 active:scale-95;
   }
 
   .header-link {
-    @apply relative text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors duration-300 font-medium;
+    @apply relative text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-300 font-medium;
   }
 
   .header-link::after {
     content: '';
-    @apply absolute left-0 bottom-0 w-0 h-0.5 bg-[var(--accent)] transition-all duration-300;
+    @apply absolute left-0 bottom-0 w-0 h-0.5 bg-gradient-to-r from-[var(--accent)] to-[var(--secondary)] transition-all duration-300;
   }
 
   .header-link:hover::after {
@@ -94,15 +109,15 @@ html.dark body {
   }
 
   .section-title {
-    @apply text-3xl md:text-5xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-[var(--text-primary)] to-[var(--accent)];
+    @apply text-3xl md:text-5xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-[var(--accent)] to-[var(--secondary)];
   }
 
   .card {
-    @apply glass-panel rounded-2xl p-6 transition-all duration-300 hover:shadow-2xl hover:-translate-y-2;
+    @apply glass-panel rounded-2xl p-6 transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 hover:border-[var(--accent)]/30;
   }
 
   .input-primary {
-    @apply w-full bg-[var(--bg-secondary)] border border-slate-700 rounded-xl px-4 py-3 
+    @apply w-full bg-[var(--bg-secondary)] border border-slate-700/50 rounded-xl px-4 py-3 
     text-[var(--text-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--accent)] 
     focus:border-transparent transition-all duration-300;
   }
@@ -110,9 +125,21 @@ html.dark body {
 
 /* Utilities */
 .text-gradient {
-  @apply bg-clip-text text-transparent bg-gradient-to-r from-[var(--text-primary)] to-[var(--accent)];
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-[var(--accent)] to-[var(--secondary)];
 }
 
 .hover-pause:hover {
   animation-play-state: paused;
+}
+
+.text-gradient-cyan {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-[#22d3ee] to-[#8b5cf6];
+}
+
+.bg-glow-violet {
+  @apply bg-[var(--accent)] filter blur-[120px] opacity-20;
+}
+
+.bg-glow-cyan {
+  @apply bg-[var(--secondary)] filter blur-[120px] opacity-20;
 }

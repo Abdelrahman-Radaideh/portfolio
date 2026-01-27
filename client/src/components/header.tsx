@@ -78,7 +78,7 @@ export const Header = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
-        ? "py-3 bg-slate-50 dark:bg-slate-900 border-b border-[var(--text-secondary)]/10"
+        ? "py-3 bg-slate-50/70 dark:bg-[#030712]/70 backdrop-blur-md border-b border-white/10"
         : "py-5 bg-transparent"
         }`}
     >
@@ -88,11 +88,11 @@ export const Header = () => {
           className="flex items-center gap-3 cursor-pointer group"
           onClick={() => handleNavigation("/")}
         >
-          <div className="relative w-10 h-10 md:w-12 md:h-12 overflow-hidden rounded-xl shadow-lg group-hover:scale-105 transition-transform duration-300">
-            <img src="/favicon.svg" alt="Logo" className="w-full h-full object-cover" />
+          <div className="relative w-12 h-12 md:w-14 md:h-14 overflow-hidden transition-transform duration-300 group-hover:scale-105">
+            <img src="/logo.png" alt="Logo" className="w-full h-full object-contain" />
           </div>
-          <span className="text-xl md:text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[var(--text-primary)] to-[var(--accent)] hidden sm:block">
-            ZAR
+          <span className="text-xl md:text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[var(--accent)] to-[var(--secondary)] hidden sm:block">
+            OBTILA
           </span>
         </div>
 

@@ -14,14 +14,16 @@ export default {
           card: '#1e293b', // Slate 800
           text: '#f1f5f9', // Slate 100
           muted: '#94a3b8', // Slate 400
-          accent: '#38bdf8', // Sky 400
+          accent: '#8b5cf6', // Violet 500
+          secondary: '#22d3ee', // Cyan 400
         },
         light: {
           bg: '#f8fafc', // Slate 50
           card: '#ffffff', // White
           text: '#0f172a', // Slate 900
           muted: '#64748b', // Slate 500
-          accent: '#0ea5e9', // Sky 500
+          accent: '#7c3aed', // Violet 600
+          secondary: '#0891b2', // Cyan 600
         }
       },
       animation: {
@@ -31,6 +33,8 @@ export default {
         'scale-in': 'scaleIn 0.3s ease-out forwards',
         'breathing': 'breathing 3s ease-in-out infinite',
         'marquee': 'marquee 40s linear infinite',
+        'blob': 'blob 7s infinite',
+        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
       },
       keyframes: {
         fadeIn: {
@@ -56,7 +60,13 @@ export default {
         marquee: {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-50%)' },
-        }
+        },
+        blob: {
+          '0%': { transform: 'translate(0px, 0px) scale(1)' },
+          '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
+          '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
+          '100%': { transform: 'translate(0px, 0px) scale(1)' },
+        },
       }
     },
   },
