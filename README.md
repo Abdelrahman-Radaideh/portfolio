@@ -163,6 +163,6 @@ Contributions are welcome! Please fork the repository and open a pull request.
 ## � Contact
 
 For questions or collaboration opportunities, feel free to reach out:
-- Email: Abdelrahmanradaideh.dev@gmail.com
+- Email: abdelrahmanradaideh.dev@gmail.com
 
 ⭐ If you found this project helpful, please give it a star!
