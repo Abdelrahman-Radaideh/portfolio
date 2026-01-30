@@ -50,7 +50,7 @@ const emailBodyToUser = (name, portfolioUrl) => `<div style="max-width:600px; ma
     <h3 style="color:#eee;">Dear ${name}</h3>
     <p style="color:#eee;">Thank you for reaching out! We have received your message and will get back to you shortly.</p>
 
-    <p style="color:#eee;">Best regards,<br />Abdelrahman Radaideh</p>
+    <p style="color:#eee;">Best regards,<br />Abdelrahman Khalid Radaideh</p>
        <a href=${portfolioUrl} style="display:inline-block; background:rgb(6,182,212); border-radius:5px; color:#fff; padding:12px 20px; text-decoration:none; font-weight:bold;">Go Back to Portfolio</a>
 
   </div>

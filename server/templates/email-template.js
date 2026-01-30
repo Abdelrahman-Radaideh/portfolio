@@ -10,7 +10,7 @@ export const emailBodyTouser = (name, portfolioUrl) => `<div style="max-width:60
 
     <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1);">
         <p style="color:#8b5cf6; margin-bottom:0; font-weight:bold;">Best regards,</p>
-        <p style="color:#f1f5f9; margin-top:5px;">Abdelrahman Radaideh</p>
+        <p style="color:#f1f5f9; margin-top:5px;">Abdelrahman Khalid Radaideh</p>
     </div>
     
     <div style="text-align: center; margin-top: 40px;">

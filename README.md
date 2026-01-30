@@ -146,7 +146,7 @@ portfolio/
 
 ## 👨‍💻 Author
 
-**Abdelrahman Radaideh**
+**Abdelrahman Khalid Radaideh**
 
 - LinkedIn: [linkedin.com/in/Abdelrahman-radaideh](https://linkedin.com/in/Abdelrahman-radaideh)
 
