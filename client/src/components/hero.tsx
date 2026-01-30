@@ -1,17 +1,11 @@
 import { motion } from "framer-motion";
 import { getIconForTechnology } from "../helpers/icon-mapper";
-import { ParticleBackground } from "./particle-background";
+
 
 export const Hero = ({ userInfo, skillsData }: any) => {
   return (
-    <section className="relative min-h-screen flex flex-col justify-center pt-20 overflow-hidden tech-grid">
-      <ParticleBackground />
-      {/* Background Glow Blobs */}
-      <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10">
-        <div className="absolute top-[10%] left-[10%] w-[300px] h-[300px] bg-glow-violet animate-blob" />
-        <div className="absolute top-[20%] right-[10%] w-[300px] h-[300px] bg-glow-cyan animate-blob animation-delay-2000" />
-        <div className="absolute bottom-[20%] left-[20%] w-[300px] h-[300px] bg-glow-cyan animate-blob animation-delay-4000" />
-      </div>
+    <section className="relative min-h-screen flex flex-col justify-center pt-20 overflow-hidden">
+
 
       <div className="container mx-auto px-4 lg:px-8 flex flex-col-reverse lg:flex-row items-center justify-between gap-12 lg:gap-20">
         {/* Text Content */}

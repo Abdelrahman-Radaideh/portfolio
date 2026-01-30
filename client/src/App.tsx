@@ -16,14 +16,28 @@ import "react-toastify/dist/ReactToastify.css";
 import { StaticModeContext } from "./contexts/static-mode-context";
 import axios from "axios";
 import { logger } from "./helpers/logger.healper";
+import { ParticleBackground } from "./components/particle-background";
+
 const MainLayout = ({ userInfo }: { userInfo: any }) => (
-  <>
-    <Header />
-    <main>
-      <Outlet />
-    </main>
-    <Footer userInfo={userInfo} />
-  </>
+  <div className="relative min-h-screen">
+    <div className="fixed inset-0 pointer-events-none z-0 tech-grid">
+      <ParticleBackground />
+      {/* Background Glow Blobs */}
+      <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
+        <div className="absolute top-[10%] left-[10%] w-[300px] h-[300px] bg-glow-violet animate-blob" />
+        <div className="absolute top-[20%] right-[10%] w-[300px] h-[300px] bg-glow-cyan animate-blob animation-delay-2000" />
+        <div className="absolute bottom-[20%] left-[20%] w-[300px] h-[300px] bg-glow-cyan animate-blob animation-delay-4000" />
+      </div>
+    </div>
+
+    <div className="relative z-10 flex flex-col min-h-screen">
+      <Header />
+      <main className="flex-grow">
+        <Outlet />
+      </main>
+      <Footer userInfo={userInfo} />
+    </div>
+  </div>
 );
 
 const DashboardLayout = () => (
