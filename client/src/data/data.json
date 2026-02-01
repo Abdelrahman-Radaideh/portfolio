@@ -11,7 +11,7 @@
         "linkedin_url": "https://www.linkedin.com/in/abdelrahman-radaideh/",
         "github_url": "https://github.com/Abdelrahman-Radaideh",
         "resume_url": "https://docs.google.com/document/d/1pbJLEIxAI-_u9pRANjD4cdb4iNNsZeuJ/edit?usp=sharing&ouid=108307676175975711476&rtpof=true&sd=true",
-        "picture_url": "https://res.cloudinary.com/dtmd7pfup/image/upload/v1769928863/enr8a46wubbryyiee56f.jpg",
+        "picture_url": "https://res.cloudinary.com/dtmd7pfup/image/upload/v1769929583/mip8033seo7moufelxvf.png",
         "portfolio_name": "main",
         "is_active": false
     },
@@ -262,5 +262,17 @@
             }
         }
     ],
-    "experiences": []
+    "experiences": [
+        {
+            "id": 1,
+            "user_id": 1,
+            "role": "AI Developer",
+            "period": "(Dec - 12)- Present",
+            "description": "Developed and deployed AI and machine learning models using Python.\nWorked on data analysis, model training, and AI-driven solutions.",
+            "company": "Salma AI",
+            "users": {
+                "is_active": true
+            }
+        }
+    ]
 }
